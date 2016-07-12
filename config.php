@@ -1,19 +1,19 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost:8090/nimbolizer/');
-define('HTTPS_SERVER', 'https://localhost:8090/nimbolizer/');
+define('HTTP_SERVER', 'http://localhost/eps');
+define('HTTPS_SERVER', 'https://localhost/eps');
 // DIR
-define('DIR_APPLICATION', 'C:\inetpub\wwwroot/eps/catalog/');
-define('DIR_SYSTEM', 'C:\inetpub\wwwroot/eps/system/');
-define('DIR_LANGUAGE', 'C:\inetpub\wwwroot/eps/catalog/language/');
-define('DIR_TEMPLATE', 'C:\inetpub\wwwroot/eps/catalog/view/theme/');
-define('DIR_CONFIG', 'C:\inetpub\wwwroot/eps/system/config/');
-define('DIR_IMAGE', 'C:\inetpub\wwwroot/eps/image/');
-define('DIR_CACHE', 'C:\inetpub\wwwroot/eps/system/cache/');
-define('DIR_DOWNLOAD', 'C:\inetpub\wwwroot/eps/system/download/');
-define('DIR_UPLOAD', 'C:\inetpub\wwwroot/eps/system/upload/');
-define('DIR_MODIFICATION', 'C:\inetpub\wwwroot/eps/system/modification/');
-define('DIR_LOGS', 'C:\inetpub\wwwroot/eps/system/logs/');
+define('DIR_APPLICATION', '/usr/share/eps/catalog/');
+define('DIR_SYSTEM', '/usr/share/eps/system/');
+define('DIR_LANGUAGE', '/usr/share/eps/catalog/language/');
+define('DIR_TEMPLATE', '/usr/share/eps/catalog/view/theme/');
+define('DIR_CONFIG', '/usr/share/eps/system/config/');
+define('DIR_IMAGE', '/usr/share/eps/image/');
+define('DIR_CACHE', '/usr/share/eps/system/cache/');
+define('DIR_DOWNLOAD', '/usr/share/eps/system/download/');
+define('DIR_UPLOAD', '/usr/share/eps/system/upload/');
+define('DIR_MODIFICATION', '/usr/share/eps/system/modification/');
+define('DIR_LOGS', '/usr/share/eps/system/logs/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
