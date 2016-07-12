@@ -1,27 +1,27 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost:8090/nimbolizer/eps/');
-define('HTTP_CATALOG', 'http://localhost:8090/nimbolizer/');
-define('HTTP_HELP', 'http://localhost:8090/nimbolizer/eps/');
+define('HTTP_SERVER', 'http://localhost/eps/eps/');
+define('HTTP_CATALOG', 'http://localhost/eps/');
+define('HTTP_HELP', 'http://localhost/eps/eps/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost:8090/eps/eps/');
-define('HTTPS_CATALOG', 'http://localhost:8090/eps/eps/');
+define('HTTPS_SERVER', 'http://localhost/eps/eps/');
+define('HTTPS_CATALOG', 'http://localhost/eps/eps/');
 
 // DIR
-define('DIR_APPLICATION', 'C:\inetpub\wwwroot/eps\eps/');
-define('DIR_SYSTEM', 'C:\inetpub\wwwroot/eps\system/');
-define('DIR_DATABASE', 'C:\inetpub\wwwroot/eps\system/database/');
-define('DIR_LANGUAGE', 'C:\inetpub\wwwroot/eps\eps/language/');
-define('DIR_TEMPLATE', 'C:\inetpub\wwwroot/eps\eps/view/template/');
-define('DIR_CONFIG', 'C:\inetpub\wwwroot/eps\system/config/');
-define('DIR_IMAGE', 'C:\inetpub\wwwroot/eps/image/');
-define('DIR_CACHE', 'C:\inetpub\wwwroot/eps\system/cache/');
-define('DIR_DOWNLOAD', 'C:\inetpub\wwwroot/eps\download/');
-define('DIR_LOGS', 'C:\inetpub\wwwroot/eps\system/logs/');
-define('DIR_CATALOG', 'C:\inetpub\wwwroot/eps\catalog/');
-define('DIR_UPLOAD', 'C:\inetpub\wwwroot/eps\system/upload/');
-define('DIR_MODIFICATION', 'C:\inetpub\wwwroot/eps\system/modification/');
+define('DIR_APPLICATION', '/usr/share/eps/eps/');
+define('DIR_SYSTEM', '/usr/share/eps/eps/system/');
+define('DIR_DATABASE', '/usr/share/eps/eps/system/database/');
+define('DIR_LANGUAGE', '/usr/share/eps/eps/eps/language/');
+define('DIR_TEMPLATE', '/usr/share/eps/eps/eps/view/template/');
+define('DIR_CONFIG', '/usr/share/eps/eps/system/config/');
+define('DIR_IMAGE', '/usr/share/eps/eps/image/');
+define('DIR_CACHE', '/usr/share/eps/eps/system/cache/');
+define('DIR_DOWNLOAD', '/usr/share/eps/eps/download/');
+define('DIR_LOGS', '/usr/share/eps/eps/system/logs/');
+define('DIR_CATALOG', '/usr/share/eps/eps/catalog/');
+define('DIR_UPLOAD', '/usr/share/eps/eps/system/upload/');
+define('DIR_MODIFICATION', '/usr/share/eps/eps/system/modification/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
