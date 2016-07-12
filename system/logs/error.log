@@ -360,3 +360,63 @@
 2016-07-11 20:56:58 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
 2016-07-11 20:56:58 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
 2016-07-11 20:56:58 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 8:59:02 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 8:59:02 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 71
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 8:59:02 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: booking in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 130
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 8:59:02 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 8:59:02 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 8:59:02 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 10:26:03 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 10:26:03 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 71
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 10:26:03 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: booking in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 130
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 10:26:03 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 10:26:03 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 10:26:03 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 11:28:43 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 11:28:43 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 71
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 11:28:43 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: booking in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 130
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 11:28:43 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 11:28:43 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 11:28:43 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 12:29:37 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 12:29:37 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 71
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 12:29:37 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: booking in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 130
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 12:29:37 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 12:29:37 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 12:29:37 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 13:17:14 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 61
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 13:17:14 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 62
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 71
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 13:17:14 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 122
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: booking in C:\inetpub\wwwroot\eps\eps\view\template\setting\help.tpl on line 130
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 13:17:14 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 107
+2016-07-12 13:17:14 - PHP Notice:  Undefined variable: customer_object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108
+2016-07-12 13:17:14 - PHP Notice:  Trying to get property of non-object in C:\inetpub\wwwroot\eps\eps\view\template\common\dashboard.tpl on line 108

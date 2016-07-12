@@ -1,12 +1,12 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/eps/eps');
-define('HTTP_CATALOG', 'http://localhost/eps/eps');
-define('HTTP_HELP', 'http://localhost/eps/eps/');
+define('HTTP_SERVER', 'http://23.100.21.85/eps/eps/');
+define('HTTP_CATALOG', 'http://23.100.21.85/eps/eps/');
+define('HTTP_HELP', 'http://23.100.21.85/eps/eps/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/eps/eps/');
-define('HTTPS_CATALOG', 'http://localhost/eps/eps/');
+define('HTTPS_SERVER', 'http://23.100.21.85/eps/eps/');
+define('HTTPS_CATALOG', 'http://23.100.21.85/eps/eps/');
 
 // DIR
 define('DIR_APPLICATION', '/usr/share/eps/eps/');

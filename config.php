@@ -1,7 +1,7 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/eps');
-define('HTTPS_SERVER', 'https://localhost/eps');
+define('HTTP_SERVER', 'http://23.100.21.85/eps');
+define('HTTPS_SERVER', 'http://23.100.21.85/eps');
 // DIR
 define('DIR_APPLICATION', '/usr/share/eps/catalog/');
 define('DIR_SYSTEM', '/usr/share/eps/system/');
@@ -18,7 +18,7 @@ define('DIR_LOGS', '/usr/share/eps/system/logs/');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'eps');
+define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'eps2!');
 define('DB_DATABASE', 'eps');
 define('DB_PREFIX', 'eps_');
