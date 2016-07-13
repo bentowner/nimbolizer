@@ -23,7 +23,7 @@ define('DIR_CATALOG', '/usr/share/eps/catalog/');
 define('DIR_UPLOAD', '/usr/share/eps/system/upload/');
 define('DIR_MODIFICATION', '/usr/share/eps/system/modification/');
 
-// DB
+// DB Database=epspe;Data Source=us-cdbr-azure-east-c.cloudapp.net;User Id=b1dc926ce05d7f;Password=dc9c6e09
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
