@@ -285,7 +285,7 @@ class ControllerCommonMenu extends Controller {
 
 		$data['operations'] = $this->url->link('catalog/information', 'token=' . $this->session->data['token'], 'SSL');
 		$data['quotations_email'] = $this->url->link('service/contact', 'token=' . $this->session->data['token']. '&transaction_type=Resend_Quote', 'SSL');
-
+		$data['ecx'] = $this->url->link('eps/ecxenablement', 'token=' . $this->session->data['token'], 'SSL');
 
 
 		$data['openbay_show_menu'] = $this->config->get('openbaypro_menu');

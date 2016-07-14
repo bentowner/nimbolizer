@@ -10,7 +10,7 @@
     <ul>
      <li><a href="<?php echo $direct_connect; ?>"><?php echo $text_direct_connect; ?></a></li>
       <li><a href="<?php echo $hybrid_cloud; ?>"><?php echo $text_hybrid_cloud; ?></a></li>
-      <li><a href="<?php echo $ecx_enablement; ?>"><?php echo $text_ecx_enablement; ?></a></li>
+      <li><a href="<?php echo $ecx; ?>"><?php echo $text_ecx_enablement; ?></a></li>
     </ul>
   </li>
   <li id="packagedsolution"><a class="parent" ><i class="fa fa-cloud"></i> <span><?php echo $text_packagedsolutions; ?></span></a>
