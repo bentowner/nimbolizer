@@ -79,8 +79,7 @@ class ControllerCommonDashboard extends Controller {
 
 		$object = serialize($dontDelete);
 
-		$this->db->query("update troy_setting set troy_setting.value = '".$object."'
-			where troy_setting.code = 'config' and troy_setting.key = 'config_dont_delete';");
+		
 	}
 
 	public function set_eps(){

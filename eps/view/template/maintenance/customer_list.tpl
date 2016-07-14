@@ -4,8 +4,8 @@
     <div class="container-fluid">
       <div class="pull-right">
         <a href="<?php echo $customeradd; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a></div>
-
-
+      
+		
       <h1><?php echo $heading_title; ?></h1>
       <ul class="breadcrumb">
         <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -14,7 +14,7 @@
       </ul>
     </div>
   </div>
-
+  
   <div class="container-fluid">
 	<?php if ($error_warning) { ?>
     <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?>
@@ -34,7 +34,7 @@
         <div class="well">
           <div class="row">
             <div class="col-sm-3">
-
+              
               <div class="form-group">
                 <label class="control-label" for="filter_custkey"><?php echo $column_custkey; ?></label>
                 <input type="hidden" name="filter_customer_code" value="<?php echo $filter_customer_code; ?>" id="filter_customer_code" class="form-control" />
@@ -45,7 +45,7 @@
                 <input type="text" name="filter_custcode" value="<?php echo $filter_custcode; ?>" placeholder="<?php echo $column_custcode; ?>" id="filter_custcode" class="form-control" />
               </div>
             </div>
-
+            
             <div class="col-sm-3">
               <div class="form-group">
                 <label class="control-label" for="filter_custstreet"><?php echo $column_custstreet; ?></label>
@@ -56,7 +56,7 @@
                   <input type="text" name="filter_custstate" value="<?php echo $filter_custstate; ?>" placeholder="<?php echo $column_custstate; ?>" id="filter_custstate" class="form-control" />
               </div>
             </div>
-
+            
             <div class="col-sm-3">
               <div class="form-group">
                 <label class="control-label" for="filter_custzip"><?php echo $column_custzip; ?></label>
@@ -75,16 +75,16 @@
               <div class="form-group">
                 <label class="control-label" for="filter_custefax"><?php echo $column_export_fax; ?></label>
                 <input type="text" name="filter_custefax" value="<?php echo $filter_date_added; ?>" placeholder="<?php echo $column_export_fax;?>"  class="form-control" />
-
+                 
               </div>
-
+             
               <button type="button" id="button-filter" class="btn btn-primary pull-right"><i class="fa fa-search"></i> <?php echo $button_filter; ?></button>
             </div>
           </div>
         </div>
         <form method="post" enctype="multipart/form-data" target="_blank" id="form-customer">
-
-
+   
+     
        <div class="table-responsive">
             <table class="table table-bordered table-hover">
           <thead>
@@ -96,44 +96,44 @@
 			  <td class="left"><?php if ($sort == 'custstate') { ?><a href="<?php echo $sort_custstate; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_custstate; ?></a><?php } else { ?><a href="<?php echo $sort_custstate; ?>"><?php echo $column_custstate; ?></a>  <?php } ?></td>
 			  <td class="left"><?php if ($sort == 'custzip') { ?><a href="<?php echo $sort_custzip; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_custzip; ?></a><?php } else { ?><a href="<?php echo $sort_custzip; ?>"><?php echo $column_custzip; ?></a>  <?php } ?></td>
 			  <td class="left"><?php if ($sort == 'custtel') { ?><a href="<?php echo $sort_custtel; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_custtel; ?></a><?php } else { ?><a href="<?php echo $sort_custtel; ?>"><?php echo $column_custtel; ?></a>  <?php } ?></td>
-			<?php if (isset($column_custefax)) { ?>
+			<?php if (isset($column_custefax)) { ?>   
 			  <td class="left"><?php if ($sort == 'custefax') { ?><a href="<?php echo $sort_custefax; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_custefax; ?></a><?php } else { ?><a href="<?php echo $sort_custefax; ?>"><?php echo $column_custefax; ?></a>  <?php } ?></td>
 			  <td class="left"><?php if ($sort == 'custifax') { ?><a href="<?php echo $sort_custifax; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_custifax; ?></a><?php } else { ?><a href="<?php echo $sort_custifax; ?>"><?php echo $column_custifax; ?></a>  <?php } ?></td>
-             <?php } ?>
-              <?php if (isset($column_status)) { ?>
-
-              <?php } ?>
-
+             <?php } ?> 
+              <?php if (isset($column_status)) { ?> 
+              
+              <?php } ?> 
+             
               </tr>
           </thead>
           <tbody>
-
+            
             <?php if ($customers) { ?>
             	  <?php foreach ($customers as $customer) { ?>
             <tr>
-
-
-
+             
+              
+              	
             	<td class="right"><?php foreach ($customer['action'] as $action) { ?>
-
-
+            	
+                
                 <a type="button" id="button-customer-view" data-toggle="tooltip" href="<?php echo$action['href']; ?>" title="<?php echo $button_customer_view; ?>" class="btn btn-info"><i class="fa fa-eye"></i></a>
-
+       
                 <?php } ?></td>
-
+             
               <td class="left"><?php echo $customer['custkey']; ?></td>
               <td class="left"><?php echo $customer['CustCode']; ?></td>
               <td class="left"><?php echo $customer['CustStreet']; ?></td>
               <td class="left"><?php echo $customer['CustState']; ?></td>
               <td class="left"><?php echo $customer['CustZip']; ?></td>
               <td class="left"><?php echo $customer['CustTel']; ?></td>
-
-             <?php if (isset($column_custefax)) { ?>
+             
+             <?php if (isset($column_custefax)) { ?>   
               <td class="left"><?php echo $customer['CustEFax']; ?></td>
               <td class="left"><?php echo $customer['CustIFax']; ?></td>
-              <?php } ?>
-
-
+              <?php } ?> 
+              
+              
             </tr>
             <?php } ?>
             <?php } else { ?>
@@ -163,14 +163,14 @@ $(document).keypress(function(e) {
 </script>
 
  <script type="text/javascript"><!--
-
-
+  
+  
 $('#button-filter').on('click', function() {
 	url = 'index.php?route=maintenance/customer&token=<?php echo $token; ?>';
-
+	
 	var filter_custcode = $('input[name=\'filter_custcode\']').val();
 	if (filter_custcode) {url += '&filter_custcode=' + encodeURIComponent(filter_custcode);	}
-
+	
 	var filter_custkey = $('input[name=\'filter_custkey\']').val();
 	if (filter_custkey) {url += '&filter_custkey=' + encodeURIComponent(filter_custkey);	}
 
@@ -185,7 +185,7 @@ $('#button-filter').on('click', function() {
 
 	var filter_custtel = $('input[name=\'filter_custtel\']').val();
 	if (filter_custtel) {url += '&filter_custtel=' + encodeURIComponent(filter_custtel);	}
-
+	
 	var filter_custefax = $('input[name=\'filter_custefax\']').val();
 	if (filter_custefax) {url += '&filter_custefax=' + encodeURIComponent(filter_custefax);	}
 
@@ -194,23 +194,44 @@ $('#button-filter').on('click', function() {
 
 	var filter_salesrep = $('input[name=\'filter_salesrep\']').val();
 	if (filter_salesrep) {url += '&filter_salesrep=' + encodeURIComponent(filter_salesrep);	}
-
+	
 	var Use = '<?php echo $Use; ?>';
 	if (Use) {url += '&Use=' + encodeURIComponent(Use);}
-
-
-
+	
+	
+	
 	location = url;
+});
+//--></script> 
+
+<script type="text/javascript"><!--
+$('input[name=\'filter_custkey\']').autocomplete({
+	'source': function(request, response) {
+		$.ajax({
+			url: 'index.php?route=service/customer/getBookingCustomer&token=<?php echo $token; ?>&filter_custkey=' +  encodeURIComponent(request),
+			dataType: 'json',			
+			success: function(json) {
+				response($.map(json, function(item) {
+					return {
+						label: item['CustName1'],
+						value: item['CustCode']
+					}
+				}));
+			}
+		});
+	},
+	'select': function(item) {
+		$('input[name=\'filter_custkey\']').val(item['label']);
+		$('input[name=\'filter_custcode\']').val(item['value']);
+	}	
 });
 //--></script>
 
-
-
-
+ 
 
 <script type="text/javascript"><!--
 $(document).ready(function() {
 	$('#date').datepicker({dateFormat: 'yy-mm-dd'});
 });
 //--></script>
-<?php echo $footer; ?>
+<?php echo $footer; ?> 

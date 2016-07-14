@@ -47,7 +47,7 @@
   <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none" >
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header"  style="background: #458070;" >
+        <div class="modal-header"  style="background: #9f0709;" >
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           <h4 class="modal-title"  style="color:white;"><b><i>Help Items</b></i></h4>
         </div>
