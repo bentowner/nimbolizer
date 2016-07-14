@@ -1,7 +1,7 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://23.100.21.85/eps');
-define('HTTPS_SERVER', 'http://23.100.21.85/eps');
+define('HTTP_SERVER', 'http://23.100.21.85/eps/');
+define('HTTPS_SERVER', 'http://23.100.21.85/eps/');
 // DIR
 define('DIR_APPLICATION', '/usr/share/eps/catalog/');
 define('DIR_SYSTEM', '/usr/share/eps/system/');

@@ -1,12 +1,12 @@
 <?php
 // HTTP
 define('HTTP_SERVER', 'http://23.100.21.85/eps/eps/');
-define('HTTP_CATALOG', 'http://23.100.21.85/eps/eps/');
+define('HTTP_CATALOG', 'http://23.100.21.85/eps/');
 define('HTTP_HELP', 'http://23.100.21.85/eps/eps/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://23.100.21.85/eps/eps/');
-define('HTTPS_CATALOG', 'http://23.100.21.85/eps/eps/');
+define('HTTPS_CATALOG', 'http://23.100.21.85/eps/');
 
 // DIR
 define('DIR_APPLICATION', '/usr/share/eps/eps/');
@@ -23,7 +23,7 @@ define('DIR_CATALOG', '/usr/share/eps/catalog/');
 define('DIR_UPLOAD', '/usr/share/eps/system/upload/');
 define('DIR_MODIFICATION', '/usr/share/eps/system/modification/');
 
-// DB Database=epspe;Data Source=us-cdbr-azure-east-c.cloudapp.net;User Id=b1dc926ce05d7f;Password=dc9c6e09
+// DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
