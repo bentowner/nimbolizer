@@ -3,9 +3,7 @@
   <div class="page-header">
     <div class="container-fluid">
       <div class="pull-right">
-        <button type="submit" id="button-shipping" form="form-order" formaction="<?php echo $shipping; ?>" data-toggle="tooltip" title="<?php echo $button_shipping_print; ?>" class="btn btn-info"><i class="fa fa-truck"></i></button>
-        <button type="submit" id="button-invoice" form="form-order" formaction="<?php echo $invoice; ?>" data-toggle="tooltip" title="<?php echo $button_invoice_print; ?>" class="btn btn-info"><i class="fa fa-print"></i></button>
-        <a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a></div>
+          <a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a></div>
       <h1><?php echo $heading_title; ?></h1>
       <ul class="breadcrumb">
         <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -164,52 +162,52 @@
   <script type="text/javascript"><!--
 $('#button-filter').on('click', function() {
 	url = 'index.php?route=sale/order&token=<?php echo $token; ?>';
-	
+
 	var filter_order_id = $('input[name=\'filter_order_id\']').val();
-	
+
 	if (filter_order_id) {
 		url += '&filter_order_id=' + encodeURIComponent(filter_order_id);
 	}
-	
+
 	var filter_customer = $('input[name=\'filter_customer\']').val();
-	
+
 	if (filter_customer) {
 		url += '&filter_customer=' + encodeURIComponent(filter_customer);
 	}
-	
+
 	var filter_order_status = $('select[name=\'filter_order_status\']').val();
-	
+
 	if (filter_order_status != '*') {
 		url += '&filter_order_status=' + encodeURIComponent(filter_order_status);
-	}	
+	}
 
 	var filter_total = $('input[name=\'filter_total\']').val();
 
 	if (filter_total) {
 		url += '&filter_total=' + encodeURIComponent(filter_total);
-	}	
-	
+	}
+
 	var filter_date_added = $('input[name=\'filter_date_added\']').val();
-	
+
 	if (filter_date_added) {
 		url += '&filter_date_added=' + encodeURIComponent(filter_date_added);
 	}
-	
+
 	var filter_date_modified = $('input[name=\'filter_date_modified\']').val();
-	
+
 	if (filter_date_modified) {
 		url += '&filter_date_modified=' + encodeURIComponent(filter_date_modified);
 	}
-				
+
 	location = url;
 });
-//--></script> 
+//--></script>
   <script type="text/javascript"><!--
 $('input[name=\'filter_customer\']').autocomplete({
 	'source': function(request, response) {
 		$.ajax({
 			url: 'index.php?route=sale/customer/autocomplete&token=<?php echo $token; ?>&filter_name=' +  encodeURIComponent(request),
-			dataType: 'json',			
+			dataType: 'json',
 			success: function(json) {
 				response($.map(json, function(item) {
 					return {
@@ -222,23 +220,23 @@ $('input[name=\'filter_customer\']').autocomplete({
 	},
 	'select': function(item) {
 		$('input[name=\'filter_customer\']').val(item['label']);
-	}	
+	}
 });
-//--></script> 
+//--></script>
   <script type="text/javascript"><!--
 $('input[name^=\'selected\']').on('change', function() {
 	$('#button-shipping, #button-invoice').prop('disabled', true);
-	
+
 	var selected = $('input[name^=\'selected\']:checked');
-	
+
 	if (selected.length) {
 		$('#button-invoice').prop('disabled', false);
 	}
-	
+
 	for (i = 0; i < selected.length; i++) {
 		if ($(selected[i]).parent().find('input[name^=\'shipping_code\']').val()) {
 			$('#button-shipping').prop('disabled', false);
-			
+
 			break;
 		}
 	}
@@ -248,12 +246,12 @@ $('input[name^=\'selected\']:first').trigger('change');
 
 $('a[id^=\'button-delete\']').on('click', function(e) {
 	e.preventDefault();
-	
+
 	if (confirm('<?php echo $text_confirm; ?>')) {
 		location = $(this).attr('href');
 	}
 });
-//--></script> 
+//--></script>
   <script src="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
   <link href="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen" />
   <script type="text/javascript"><!--

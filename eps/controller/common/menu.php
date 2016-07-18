@@ -125,7 +125,7 @@ class ControllerCommonMenu extends Controller {
 		$data['text_customers'] = $this->language->get('Customers');
 
 
-//Added EPS Elements
+		//Added EPS Elements
 
 	  $data['text_skills'] = $this->language->get('text_skills');
 	  $data['text_team_eps'] = $this->language->get('text_team_eps');
@@ -147,8 +147,6 @@ class ControllerCommonMenu extends Controller {
 
 		$data['text_dealsupport'] = $this->language->get('text_dealsupport');
 
-
-//
 		$data['text_sales'] = $this->language->get('Sales');
 		$data['text_it'] = $this->language->get('text_it');
 		$data['text_marketing'] = $this->language->get('Marketing');
@@ -196,9 +194,7 @@ class ControllerCommonMenu extends Controller {
 		$data['text_maint_service'] = $this->language->get('text_maint_service');
 
 		$data['text_calendar'] = $this->language->get('text_calendar');
-
 		$data['text_status'] = $this->language->get('text_status');
-
 
 		$data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
 		$data['affiliate'] = $this->url->link('marketing/affiliate', 'token=' . $this->session->data['token'], 'SSL');
